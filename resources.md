@@ -22,7 +22,7 @@ It also refers to the IEEE 1588 (2019) Precision Time Protocol as the finest gra
 
 
 
-### How another format deals with time bases
+### EAF
 
 EAF ([ELAN](https://archive.mpi.nl/tla/elan) Annotation Format): https://standards.clarin.eu/sis/views/view-spec.xq?id=SpecEAF#:~:text=The%20abbreviation%20EAF%20stands%20for,and%20video%20recordings%20in%20EAF.
 
@@ -34,4 +34,4 @@ Example `.eaf` file: https://github.com/aclew/Highvol_templates/blob/master/0270
 
 None of which explains what the critical value of `TIME_VALUE` is relative to (presumably the required `date` timestamp from the header) nor other explanations of temporal precision, especially across `TIME_SLOT` coming from multiple microphones or cameras.
 
-
+Overall seems to focus much more on annotation syntax, which is likely largely superseded by HED at this point.
