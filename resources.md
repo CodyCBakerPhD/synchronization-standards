@@ -1,5 +1,11 @@
 # Resources
 
+Both NWB and BIDS generally expect all temporal data within a 'session' to be aligned to the same common time basis.
+
+
+
+### DICOM
+
 DICOM Synchronization module: https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.4.2.html#sect_C.7.4.2.1.1
 
 Note that the important `Synchronization Channel` is required if referenced by a [waveform](https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.10.8.html)
@@ -8,7 +14,13 @@ It also refers to the IEEE 1588 (2019) Precision Time Protocol as the finest gra
 
 
 
-## How another format deals with time bases
+### BIDS
+
+`SimultaneousRecording` and `SimultaneousRecordingWith` discussion: https://github.com/bids-standard/bids-specification/issues/86
+
+
+
+### How another format deals with time bases
 
 EAF ([ELAN](https://archive.mpi.nl/tla/elan) Annotation Format): https://standards.clarin.eu/sis/views/view-spec.xq?id=SpecEAF#:~:text=The%20abbreviation%20EAF%20stands%20for,and%20video%20recordings%20in%20EAF.
 
