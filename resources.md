@@ -2,6 +2,8 @@
 
 Both NWB and BIDS generally expect all temporal data within a 'session' to be aligned to the same common time basis.
 
+Details of how that alignment is performed are often left out, or assumed to be included in the official publication (usually methods section).
+
 
 
 ### DICOM
